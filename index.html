@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自己紹介サイト</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="area_logo_header">
+        <a href="" class="logo">
+          <img src="./img/OKINAWA-logo-black.png" alt="header-logo">
+        </a>
+      </div>
+      
+      <div class="drawer">
+        <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+           <input type="checkbox" name="navToggle" id="navToggle" class="navToggle">
+        
+        <!-- ハンバーガーメニューのアイコン -->
+           <label for="navToggle" class="btn-burger">
+            <span class="icon"></span>
+           </label>
+        <!-- 表示されるメニューの中身 -->
+
+          <nav class="nav_header">
+            <ul class="list_nav_header">
+              <li><a href="#about">ABOUT.</a></li>
+              <li><a href="#feature">FEATURE.</a></li>
+              <li><a href="#profile">PROFILE.</a></li>
+              <li><a class="btn_ico_mail" href="">
+                <img src="./img/baseline_mail_outline_black_24dp.png" class="mail">CONTACT
+                </a></li>
+            </ul>
+          </nav>
+      </div>  
+
+    </div>
+  </header>
+  <main>
+    <div class="area_top_view">
+      <div class="container">
+        <!--
+        <img src="OKINAWA-logo.png" alt="">
+        -->
+        <p>Welcome to Okinawa</p>
+      </div>
+    </div>
+    <!-- サイトの説明 -->
+    <section class="area_home_about">
+      <div class="container">
+        <div class="head_home">
+          <h2 class="ttl" id="about">ABOUT.</h2>
+        </div>
+        <div id="page_top"><a href="#"></a></div>
+        <div class="body_home">
+          <div class="layout_2_div">
+              <img class="pc_img" src="./img/OKINAWA-logo (1).png" alt="pc">
+            <div class="text_home">
+              <p class="description">どこまでも続く透きとおった海、<br>静かなときが流れる深い緑の自然、<br>都会では出会えなかった星たち、<br>食べるたびにやさしい島のごはん。<br>まだ知らない沖縄の魅力をご紹介します。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 特徴 -->
+    <section class="area_home_feature bg_black">
+      <div class="container">
+        <div class="head_home">
+          <h2 class="ttl" id="feature">FEATURE.</h2>
+        </div>
+        <div class="body_home">
+          <ul class="list_feature">
+            <li>
+                <img src="./img/logo (1).png" alt="beach">
+              <p class="ttl">BEACH</p>
+              <p class="description">周りを海に囲まれた沖縄には、青い海と白い砂浜を心ゆくまで満喫できる美しいビーチが沢山あります。</p>
+              <a href="#" class="btn-border">SeeMore</a>
+            </li>
+            <li>
+              <img src="./img/logoのコピー.png" alt="food">
+              <p class="ttl">FOOD</p>
+              <p class="description">各国の文化の影響を受け、独自に成長したグルメがいっぱい。沖縄ならではのグルメを楽しめるお店をご紹介。</p>
+              <a href="#" class="btn-border">SeeMore</a>
+            </li>
+            <li>
+              <img src="./img/logoのコピー2.png" alt="activity">
+              <p class="ttl">ACTIVITY</p>
+              <p class="description">沖縄の海は色とりどりの熱帯魚が多く棲み、シュノーケルもおすすめ。アクティビティが充実しています。</p>
+              <a href="#" class="btn-border">SeeMore</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--プロフィール-->
+    <section class="area_home_profile">
+      <div class="container">
+        <div class="head_home">
+          <h2 class="ttl" id="profile">PROFILE.</h2>
+        </div>
+        <div class="body_home">
+          <div class="layout_2_div">
+              <img class="profile_img" src="./img/kristina-v-hYdikKrex4U-unsplash.jpg" alt="">
+            <div class="text_home">
+              <p class="ttl_1">YUKI</p>
+              <p class="description">現在、プログラミングスクール「NexSeed」に通うプログラミング学習者です。HTML/CSSをはじめ、JavaScriptやPHPを学習中。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <ul class="list_sns">
+        <li class="youtube"><a href=""><img src="./img/round_subscriptions_white_24dp.png" alt=""></a></li>
+        <li class="instagram"><a href=""><img src="./img/round_qr_code_white_24dp.png" alt=""></a></li>
+        <li class="facebook"><a href=""><img src="./img/question_answer_white_24dp.svg" alt=""></a></li>
+      </ul>
+      <p class="copyright">©︎ 2021 OKINAWA</p>
+    </div>
+  </footer>
+</body>
+
+</html>
